@@ -33,6 +33,5 @@ def private_panel(_):
             [InlineKeyboardButton(text=_["ST_B_3"], callback_data="LG")],
             InlineKeyboardButton(text=_["S_B_7"], url=config.UPSTREAM_REPO),
         ],
-        [InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true")],
     ]
     return buttons
